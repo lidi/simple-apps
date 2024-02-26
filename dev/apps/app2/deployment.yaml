@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: app2
+  name: ld-app2
   namespace: dev-app2
 spec:
   replicas: 1
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: secdevopsjourney/nginx:v0.3.0
+        image: nginx:mainline-alpine3.18-perl
         ports:
         - containerPort: 80
