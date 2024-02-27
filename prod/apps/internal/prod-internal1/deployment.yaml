@@ -2,8 +2,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ld-prod-app3
-  namespace: prod-app3
+  name: ld-prod-internal1
+  namespace: prod-internal1
 spec:
   replicas: 1
   selector:
