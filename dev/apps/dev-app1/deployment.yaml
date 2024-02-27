@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ld-app1
+  name: ld-dev-app1
   namespace: dev-app1
 spec:
   replicas: 1
